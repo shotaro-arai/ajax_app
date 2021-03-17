@@ -33,7 +33,7 @@ function post(){
       const list = document.getElementById("list");
       const formText = document.getElementById("content");
       
-    list.insertAdjacentHTML("afterend", buildhtml);
+    list.insertAdjacentHTML("afterend", buildHTML(XHR));
     formText.value = "";
     };
   });
